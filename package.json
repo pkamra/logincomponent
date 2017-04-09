@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/username/repo"
+    "url": "https://github.com/pkamra/logincomponent.git"
   },
   "author": {
     "name": "Piyali Kamra",
@@ -21,7 +21,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/username/repo/issues"
+    "url": "https://github.com/pkamra/logincomponent.git/issues"
   },
   "main": "./dist/index.js",
   "dependencies": {
