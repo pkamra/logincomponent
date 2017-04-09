@@ -1,0 +1,64 @@
+{
+  "name": "login-component",
+  "version": "0.2.2",
+  "scripts": {
+    "build": "ngc -p tsconfig.json",
+    "lint": "tslint --type-check --project tsconfig.json src/**/*.ts",
+    "test": "tsc && karma start",
+    "prepublish": "tsc",
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/repo"
+  },
+  "author": {
+    "name": "Piyali Kamra",
+    "email": "piyali_banerjee@yahoo.com"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/username/repo/issues"
+  },
+  "main": "./dist/index.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@angular/common": "2.2.1",
+    "@angular/compiler": "2.2.1",
+    "@angular/core": "2.2.1",
+    "@angular/forms": "2.2.1",
+    "@angular/http": "2.2.1",
+    "@angular/platform-browser": "2.2.1",
+    "@angular/platform-browser-dynamic": "2.2.1",
+    "@angular/router": "3.2.1",
+    "ng2-bootstrap": "1.1.5",
+    "ng2-bs3-modal": "^0.10.4",
+    "ng2-modal": "0.0.21",
+    "ng2-pagination": "0.4.1",
+    "ng2-uploader": "1.2.0",
+    "@types/jasmine": "2.5.38",
+    "@types/node": "^6.0.42",
+    "codelyzer": "~1.0.0-beta.3",
+    "jasmine-core": "2.5.2",
+    "jasmine-spec-reporter": "2.5.0",
+    "karma": "1.2.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-cli": "^1.0.1",
+    "karma-jasmine": "^1.0.2",
+    "karma-remap-istanbul": "^0.2.1",
+    "protractor": "4.0.9",
+    "ts-node": "1.2.1",
+    "tslint": "3.13.0",
+    "typescript": "~2.0.3",
+    "rxjs": "5.0.0-beta.12",
+    "ts-helpers": "1.1.1",
+    "zone.js": "0.6.25"
+},
+  "engines": {
+    "node": ">=6.0.0"
+  }
+}
