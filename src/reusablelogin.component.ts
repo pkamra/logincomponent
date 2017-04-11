@@ -80,8 +80,8 @@ export class LoginComponent {
       .subscribe(
         response => {
             if (response.json().api_token != null  && response.json().api_token != undefined && response.json().errors == undefined ){
-                sessionStorage.setItem('api_token', response.json().api_token);
-                sessionStorage.setItem('expiry', response.json().expiry);
+                localStorage.setItem('api_token', response.json().api_token);
+                localStorage.setItem('expiry', response.json().expiry);
                  this.router.navigate([this.targetRoute]);
             }else if (response.json().errors != undefined){
                 alert("Unauthorized");

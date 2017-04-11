@@ -25,7 +25,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
 // Import your library
-import { SampleModule } from 'login-component';
+import { LoginComponent } from 'login-component';
 
 @NgModule({
   declarations: [
@@ -35,7 +35,7 @@ import { SampleModule } from 'login-component';
     BrowserModule,
 
     // Specify your library as an import
-    LibraryModule
+    LoginComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
@@ -50,7 +50,9 @@ Once your library is imported, you can use its components, directives and pipes 
 <h1>
   {{title}}
 </h1>
-<sampleComponent></sampleComponent>
+<login-component></login-component>
+
+<!-- Or you can also call it from the routes guard-->
 ```
 
 ## Development
